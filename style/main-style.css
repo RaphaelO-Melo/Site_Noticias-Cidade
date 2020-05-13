@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.main {
+    margin: 0 auto;
+}
+
+div.header {
+    height: 233px;
+    text-align: center;
+    background: #294c71 url(../src/cabeçalho/fundo.png) repeat-x top left;
+}
+
+div.header-content {
+    width: 780px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: left;
+    background: url(../src/cabeçalho/detalhe-topo.png) no-repeat right top;
+}
+
+img.logo-image{
+    float: left;
+    margin: 1.3em 0;
+}
+
+ul.nav-menu-horizontal{
+    margin: 1.5em 0;
+    list-style: none;
+}
+
+ul.nav-menu-horizontal li {
+    float: left;
+    margin: 0;
+}
+
+ul.nav-menu-horizontal li a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0.8em 1em;
+    letter-spacing: 0.3px;
+    background:#9F0933;
+    border: 2px outset#920C31;
+}
+
+ul.nav-menu-horizontal li a:hover, ul.nav-menu-horizontal li a.current{
+    background: #e41c54;
+    border: 2px inset #ec5c84;
+}
+
+.clear {
+    clear: both;
+}
