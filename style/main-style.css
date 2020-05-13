@@ -8,6 +8,8 @@ div.main {
     margin: 0 auto;
 }
 
+
+/********************* Cabeçalho *********************/
 div.header {
     height: 233px;
     text-align: center;
@@ -15,7 +17,7 @@ div.header {
 }
 
 div.header-content {
-    width: 780px;
+    width: 910px;
     height: 100%;
     margin: 0 auto;
     text-align: left;
@@ -41,16 +43,190 @@ ul.nav-menu-horizontal li a {
     text-decoration: none;
     color: white;
     margin: 0;
-    padding: 0.8em 1em;
+    padding: 0.8em 1.5em;
     letter-spacing: 0.3px;
     background:#9F0933;
     border: 2px outset#920C31;
 }
 
-ul.nav-menu-horizontal li a:hover, ul.nav-menu-horizontal li a.current{
+ul.nav-menu-horizontal li a:hover{
+    color: #48171E;
+}
+
+ul.nav-menu-horizontal li a.current{
     background: #e41c54;
     border: 2px inset #ec5c84;
 }
+/*****************************************************/
+
+/******************** Conteúdo ***********************/
+div.container {
+    width: 910px;
+    margin: 0 auto;
+    padding: 2px;
+}
+
+div.content {
+    width: 900px;
+    background: white;
+    margin: 0 4px;
+    float: left;
+}
+
+div.col-1, div.col-2, div.col-3, div.col-4{
+    float: left;
+    background: white url(../src/fundo-caixa.png);
+    margin: 5px;
+    padding: 10px;
+}
+
+div.col-1 {
+    width: 180px;
+}
+
+div.col-2,div.col-3{
+    width: 300px;
+}
+
+div.col-4{
+    width: 600px;
+    height: fit-content;
+}
+
+div.box {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+img.big {
+    width: 250px;
+    border: 2px solid gray;
+}
+
+img.min {
+    width: 110px;
+}
+
+
+
+
+
+div.min-box {
+    padding: 5px;
+    margin: 10px;
+}
+
+div.min-box-image {
+    float: left;
+    margin: 2px;
+}
+div.min-box-content {
+    float: right;
+    margin: 2px 1px 5px 1px;
+    width: 130px;
+}
+
+div.min-box-content h4 {
+    font-size: 16px;
+    color: #294c71;
+}
+
+div.min-box a {
+    font-size: 0.9em;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+h2.box-header {
+    background: #294c71;
+    color: white;
+    font-size: 1.1em;
+    padding: 0.4em 0.5em;
+}
+
+h2.main {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+ul.interviewed{
+    list-style: none;
+}
+
+ul.interviewed li{
+    margin: 10px 0;
+    padding: 3px;
+}
+
+ul.interviewed li a{
+    text-decoration: none;
+    color: black;
+}
+
+ul.interviewed li a:hover{
+    background: url("../src/marcador.png") no-repeat left center;
+    padding-left: 20px;
+    color: #a4a4a4;
+}
+
+
+form.user-email{
+    padding: 5px;
+    font-weight: bold;
+}
+
+form.user-email input.email-area{
+    width: 150px;
+    margin: 8px 0;
+}
+
+form.user-email input.submit-button{
+    width: 150px;
+    text-align: center;
+    padding: 3px;
+    background-color: #9F0933;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+h3.featured {
+    background-color: #9F0933;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 0.8em;
+    width: fit-content;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+
+div.box p {
+    font-size: 0.95em;
+    text-align: left;
+}
+
+a.read-more{
+    font-weight: bold;
+    color: #9F0933;
+}
+
+
+
+
+
 
 .clear {
     clear: both;
