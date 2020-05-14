@@ -227,6 +227,18 @@ div.news-resume-div h3{
     
 }
 
+.container-footer{
+    background: #294c71;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer{
+    width: 910;
+    margin: 0 auto;
+    color: white;
+}
+
 .clear {
     clear: both;
 }
