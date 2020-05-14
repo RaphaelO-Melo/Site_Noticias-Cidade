@@ -89,7 +89,7 @@ div.col-2,div.col-3{
 }
 
 div.col-4{
-    width: 600px;
+    width: 610px;
     height: fit-content;
 }
 
@@ -107,10 +107,6 @@ img.big {
 img.min {
     width: 110px;
 }
-
-
-
-
 
 div.min-box {
     padding: 5px;
@@ -137,15 +133,6 @@ div.min-box a {
     color: black;
 }
 
-
-
-
-
-
-
-
-
-
 h2.box-header {
     background: #294c71;
     color: white;
@@ -157,8 +144,6 @@ h2.main {
     font-size: 1.5em;
     text-align: center;
 }
-
-
 
 ul.interviewed{
     list-style: none;
@@ -174,12 +159,11 @@ ul.interviewed li a{
     color: black;
 }
 
-ul.interviewed li a:hover{
+ul.interviewed li a:hover, ul.interviewed li a.current{
     background: url("../src/marcador.png") no-repeat left center;
     padding-left: 20px;
     color: #a4a4a4;
 }
-
 
 form.user-email{
     padding: 5px;
@@ -200,8 +184,6 @@ form.user-email input.submit-button{
     cursor: pointer;
 }
 
-
-
 h3.featured {
     background-color: #9F0933;
     color: white;
@@ -211,7 +193,6 @@ h3.featured {
     margin: 8px 0;
     font-weight: bold;
 }
-
 
 div.box p {
     font-size: 0.95em;
@@ -223,10 +204,28 @@ a.read-more{
     color: #9F0933;
 }
 
+img.img-resume, img.img-interview{
+    width: 500px;
+    border: 2px solid gray;
+}
 
+div.news-resume-div, .interview-box{
+    margin: 15px;
+    background-color: #E2E2E6;
+    text-align: center;
+    padding: 20px;
+}
 
+div.news-resume-div h3{
+    color: #294c71;
+}
 
-
+.interview-box p{
+    padding: 10px;
+    text-indent: 25px;
+    text-align: center;
+    
+}
 
 .clear {
     clear: both;
